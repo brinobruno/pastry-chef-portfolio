@@ -15,7 +15,7 @@ export function Posts({ posts }: PostProps) {
   }
 
   return (
-    <div className="flex flex-1">
+    <div className="flex flex-1 mb-20">
       <div className="w-[50%]">{postsByColumn('left')}</div>
 
       <div className="w-[50%]">{postsByColumn('right')}</div>

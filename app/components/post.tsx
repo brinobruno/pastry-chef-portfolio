@@ -21,8 +21,9 @@ export function Post({ post }: PostProps) {
     >
       <Image
         src={image}
-        alt=""
+        alt={title}
         className="group-hover:brightness-[0.4] transition-all"
+        loading="eager"
       />
 
       <figcaption
